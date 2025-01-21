@@ -1,0 +1,35 @@
+/* Khusus untuk index.php */
+body.index-page {
+  background-color: #ADD8E6; /* Light Blue */
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Arial', sans-serif;
+}
+
+.welcome-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-grow: 1;
+  padding: 20px;
+}
+
+.welcome-text {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #FFFFFF;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+  background: rgba(0, 0, 0, 0.4);
+  padding: 20px 30px;
+  border-radius: 15px;
+}
+
+.welcome-subtext {
+  font-size: 1.2rem;
+  margin-top: 20px;
+  color: #000; /* Black */
+}

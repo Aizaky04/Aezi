@@ -1,0 +1,86 @@
+/* codewithcurious.com */
+
+
+body {
+  background-color: #e0f7fa; /* Warna latar belakang yang lebih cerah */
+  font-family: 'Roboto', sans-serif; /* Menggunakan font yang lebih modern */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0; /* Menghapus margin default */
+}
+
+.quiz-container {
+  max-width: 500px;
+  background-color: #ffffff; /* Warna latar belakang putih */
+  border-radius: 15px; /* Sudut yang lebih bulat */
+  padding: 30px; /* Padding yang lebih besar */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Bayangan yang lebih halus */
+  transition: transform 0.3s; /* Efek transisi saat hover */
+}
+
+.quiz-container:hover {
+  transform: scale(1.02); /* Efek zoom saat hover */
+}
+
+h1 {
+  text-align: center;
+  color: #00796b; /* Warna teks yang lebih menarik */
+  margin-bottom: 20px; /* Jarak bawah yang lebih besar */
+}
+
+#question-container {
+  margin-bottom: 20px;
+}
+
+#question-text {
+  font-size: 20px; /* Ukuran font yang lebih besar */
+  margin-bottom: 15px; /* Jarak bawah yang lebih besar */
+  color: #424242; /* Warna teks yang lebih gelap */
+}
+
+#answer-buttons {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 15px; /* Jarak antar tombol yang lebih besar */
+}
+
+button {
+  height: 50px; /* Tinggi tombol yang lebih besar */
+  font-size: 18px; /* Ukuran font yang lebih besar */
+  background-color: #4db6ac; /* Warna latar belakang tombol */
+  color: white; /* Warna teks putih */
+  border: none;
+  border-radius: 8px; /* Sudut yang lebih bulat */
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s; /* Efek transisi */
+}
+
+button:hover {
+  background-color: #009688; /* Warna latar belakang saat hover */
+  transform: translateY(-2px); /* Efek angkat saat hover */
+}
+
+#controls-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#timer-container {
+  display: flex;
+  align-items: center;
+}
+
+#timer-text {
+  font-size: 16px; /* Ukuran font yang lebih besar */
+  color: #00796b; /* Warna teks yang lebih menarik */
+}
+
+#timer {
+  font-weight: bold;
+  margin-left: 5px;
+  font-size: 18px; /* Ukuran font yang lebih besar */
+  color: #d32f2f; /* Warna merah untuk timer */
+}
